@@ -1,0 +1,23 @@
+{
+  "name": "restaurant_mockpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomo5524/Restaurant_Mockpage.git"
+  },
+  "author": "Tomoaki Takebuchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tomo5524/Restaurant_Mockpage/issues"
+  },
+  "homepage": "https://github.com/Tomo5524/Restaurant_Mockpage#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
