@@ -2,6 +2,8 @@
 
 // npm run build did not work cuz there was no build webpack in json package
 // npm ERR! missing script: build
+//error: update_ref failed for ref 'refs/remotes/origin/master': cannot lock ref 'refs/remotes/origin/master': unable to resolve reference 'refs/remotes/origin/master': reference broken
+
 
 // create nav
 
@@ -12,14 +14,17 @@ const renderNav = () => {
     // nav.setAttribute('class','nav')
 
     const ul = document.createElement("ul");
-    ul.setAttribute('class','ulist')
+    ul.setAttribute('class','ulist flex al-items')
 
     const li_logo = document.createElement("li");
     li_logo.setAttribute('class','li-item logo')
     const logo_ref = document.createElement("img");
-    logo_ref.setAttribute('src', './images/pizza-logo-design-template_15146-192.jpg')
-    logo_ref.setAttribute('class','logo ref')
+    logo_ref.setAttribute('src', './images/attachment_71444173.png')
+    logo_ref.setAttribute('class','logo-img')
     li_logo.appendChild(logo_ref)
+
+    const right_div = document.createElement("div");
+    right_div.setAttribute('class','right-div flex fl-ed')
     
 
     const li_home = document.createElement("li");
@@ -56,11 +61,18 @@ const renderNav = () => {
     contact_ref.textContent = "Contact"
     li_contact.appendChild(contact_ref)
 
+    right_div.appendChild(li_home)
+    right_div.appendChild(li_menu)
+    right_div.appendChild(li_about)
+    right_div.appendChild(li_contact)
+
+
     ul.appendChild(li_logo)
-    ul.appendChild(li_home)
-    ul.appendChild(li_menu)
-    ul.appendChild(li_about)
-    ul.appendChild(li_contact)
+    ul.appendChild(right_div)
+    // ul.appendChild(li_home)
+    // ul.appendChild(li_menu)
+    // ul.appendChild(li_about)
+    // ul.appendChild(li_contact)
 
     // nav.appendChild(ul)
 
