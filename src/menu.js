@@ -3,13 +3,13 @@
 const renderMenu = () => {
 
     const container = document.createElement("div");
-    container.setAttribute('class','menu-container');
+    container.setAttribute('class','menu-container flex jf-cn');
 
     const menu = document.createElement("div"); 
     menu.setAttribute('class','menu')
 
     const Cheese_Pizza = document.createElement("h3"); 
-    Cheese_Pizza.setAttribute('class','menu-name');
+    Cheese_Pizza.setAttribute('class','menu-name border-bm-cheese');
     Cheese_Pizza.innerHTML = 'Cheese Pizza'
 
     const price_one = document.createElement("p"); 
@@ -23,7 +23,7 @@ const renderMenu = () => {
     first_item.appendChild(price_one)
 
     const Meat_Pizza = document.createElement("h3"); 
-    Meat_Pizza.setAttribute('class','menu-name');
+    Meat_Pizza.setAttribute('class','menu-name border-bm-meat');
     Meat_Pizza.innerHTML = 'Meat Pizza'
 
     const price_second = document.createElement("p"); 
@@ -37,7 +37,7 @@ const renderMenu = () => {
     second_item.appendChild(price_second)
 
     const Margherita_Pizza = document.createElement("h3"); 
-    Margherita_Pizza.setAttribute('class','menu-name');
+    Margherita_Pizza.setAttribute('class','menu-name border-bm-margherita');
     Margherita_Pizza.innerHTML = 'Margherita Pizza'
 
     const price_third = document.createElement("p"); 
@@ -51,7 +51,7 @@ const renderMenu = () => {
     third_item.appendChild(price_third)
 
     const BBQ_Chicken_Pizza = document.createElement("h3"); 
-    BBQ_Chicken_Pizza.setAttribute('class','menu-name');
+    BBQ_Chicken_Pizza.setAttribute('class','menu-name border-bm-BBQ');
     BBQ_Chicken_Pizza.innerHTML = 'BBQ Chicken Pizza'
 
     const price_forth = document.createElement("p"); 
@@ -65,7 +65,7 @@ const renderMenu = () => {
     forth_item.appendChild(price_forth)
 
     const Hawaiian_Pizza = document.createElement("h3"); 
-    Hawaiian_Pizza.setAttribute('class','menu-name');
+    Hawaiian_Pizza.setAttribute('class','menu-name border-bm-BBQ');
     Hawaiian_Pizza.innerHTML = 'Hawaiian Pizza'
 
     const price_fifth = document.createElement("p"); 
@@ -79,7 +79,7 @@ const renderMenu = () => {
     fifth_item.appendChild(price_fifth)
 
     const Buffalo_Pizza = document.createElement("h3"); 
-    Buffalo_Pizza.setAttribute('class','menu-name');
+    Buffalo_Pizza.setAttribute('class','menu-name border-bm-buffalo');
     Buffalo_Pizza.innerHTML = 'Buffalo Pizza'
 
     const sixth_forth = document.createElement("p"); 
@@ -99,7 +99,7 @@ const renderMenu = () => {
     menu.appendChild(fifth_item)
     menu.appendChild(sixth_item)
 
-    container.appendChild(menue)
+    container.appendChild(menu)
 
     return container
 

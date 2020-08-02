@@ -45,8 +45,36 @@ body{
     justify-content: flex-end;
 }
 
-.sp-betwenn{
+.sp-between{
     justify-content: space-between;
+}
+
+.fl-dir{
+    flex-direction: column;
+}
+
+.border-bm-cheese{
+    border-bottom: 1px solid palegoldenrod ;    
+}
+
+.border-bm-meat{
+    border-bottom: 1px solid palevioletred ;
+}
+
+.border-bm-margherita{
+    border-bottom: 1px solid papayawhip;
+}
+
+.border-bm-margherita{
+    border-bottom: 1px solid papayawhip;
+}
+
+.border-bm-BBQ{
+    border-bottom: 1px solid red;
+}
+
+.border-bm-buffalo{
+    border-bottom: 1px solid rosybrown ;   
 }
 
 /* logo */
@@ -62,7 +90,6 @@ body{
 }
 
 .li-item{
-    
     font-size: 1.5rem;
     padding-left: 20px;
     padding-right: 20px;
@@ -101,8 +128,57 @@ body{
     font-weight: 900;
 }
 
+/* menu */
+.menu-container{
+    /* height: 100%; */
+    width: 100%;
+}
 
+.menu{
+    position: absolute;
+    top: 50%; 
+    /* left: 50%; */
+	/*Defines a translation, using only the value for the Y-axis*/
+	transform: translateY(-50%);
+    border-radius: 10px;;
+    background: rgba(0,0,0,0.8);
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
 
+.menu-item{
+    padding: 1rem 3rem;
+}
+
+.menu-price{
+    margin-left: 20px;
+}
+
+.contact-container{
+    width: 100%;
+}
+
+.contact{
+    position: absolute;
+    top: 50%; 
+    /* left: 50%; */
+	/*Defines a translation, using only the value for the Y-axis*/
+	transform: translateY(-50%);
+    border-radius: 10px;;
+    background: rgba(0,0,0,0.8);
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 3rem;
+}
+
+.contact-item{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* footer */
 .footer{
     background-color: #333;
     position: absolute;
@@ -119,3 +195,4 @@ body{
     text-decoration: none;
     color: white;
 }
+

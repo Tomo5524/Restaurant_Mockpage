@@ -47,12 +47,12 @@ const renderNav = () => {
     li_menu.appendChild(menu_ref)
     
 
-    const li_about = document.createElement("li");
-    li_about.setAttribute('class','li-item')
-    const about_ref = document.createElement("a");
-    about_ref.setAttribute('class','ref')
-    about_ref.textContent = "About"
-    li_about.appendChild(about_ref)
+    // const li_about = document.createElement("li");
+    // li_about.setAttribute('class','li-item')
+    // const about_ref = document.createElement("a");
+    // about_ref.setAttribute('class','ref')
+    // about_ref.textContent = "About"
+    // li_about.appendChild(about_ref)
 
     const li_contact = document.createElement("li");
     li_contact.setAttribute('class','li-item')
@@ -63,7 +63,7 @@ const renderNav = () => {
 
     right_div.appendChild(li_home)
     right_div.appendChild(li_menu)
-    right_div.appendChild(li_about)
+    // right_div.appendChild(li_about)
     right_div.appendChild(li_contact)
 
 
